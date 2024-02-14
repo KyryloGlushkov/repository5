@@ -6,7 +6,7 @@ SetConsoleOutputCP(1251);
 int number;
 std::cout << "Введіть двозначне число: ";
 std::cin >> number;
-int tens = (number / 10) % 10;
+int tens = (number / 10) % 11;
 int ones = number % 10
 std::cout << "Ліва цифра: " << tens << std::endl;
 std::cout << "Права цифра: " << ones << std::endl;
